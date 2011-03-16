@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = ["LICENSE", "README", "rubyrss.gemspec", "lib/rubyrss.rb", "lib/tempates.rb"]
   s.require_path = "lib"
   #s.autorequire = "name"
-  s.test_files = FileList[ ].to_a #{}"{test}/**/*test.rb"].to_a
+  #s.test_files = FileList[ ].to_a #{}"{test}/**/*test.rb"].to_a
   s.has_rdoc = true
   s.extra_rdoc_files = ["README"]
   #s.add_dependency("dependency", ">= 0.x.x")
