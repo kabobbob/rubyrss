@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://rubyforge.org/projects/rubyrss/"
   s.platform = Gem::Platform::RUBY
   s.summary = "A simplified RSS library"
-  s.files = PKG_FILES.to_a
+  s.files = ["LICENSE", "README", "rubyrss.gemspec", "lib/rubyrss.rb", "lib/tempates.rb"]
   s.require_path = "lib"
   #s.autorequire = "name"
   s.test_files = FileList[ ].to_a #{}"{test}/**/*test.rb"].to_a
